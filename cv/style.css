@@ -1,0 +1,23 @@
+
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color:lavenderblush;
+}
+section div{
+    display:inline-block;
+}
+.flex{
+    list-style: none;
+    display:inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+}
