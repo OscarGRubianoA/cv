@@ -9,6 +9,35 @@ body{
     margin: 1rem;
     padding: 1rem;
     background-color:lavenderblush;
+    background-image: url(./assets/fondo.jpg);
+    /* background-position: 100% 300%; */
+    background-position: center;
+    color:midnightblue
+    
+}
+header>nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+    padding: 1rem;
+    
+    
+}
+a{
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 2rem;
+   color:hotpink;
+   background-color: rgba(105, 90, 205, 0.134);
+   border-radius: .5rem;
+   font-weight: bolder;
+
+}
+.active{
+    text-decoration: overline;
+    color: slateblue;
+    background-color:rgba(255, 240, 245, 0.302); 
+
 }
 section div{
     display:inline-block;
